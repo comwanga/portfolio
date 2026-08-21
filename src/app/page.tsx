@@ -213,7 +213,7 @@ export default function HomePage() {
               <span>Technical Competencies</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
-              Domain Expertise & Engineering Tooling
+              Domain Competencies & Core Tooling
             </h2>
             <p className="text-sm text-zinc-600 dark:text-zinc-400">
               Practical competencies grounded in implemented code and operational deployments.

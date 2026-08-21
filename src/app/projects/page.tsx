@@ -8,7 +8,7 @@ import { Layers, Terminal } from "lucide-react";
 export const metadata: Metadata = {
   title: "Selected Work & Systems",
   description:
-    "Engineering portfolio of Bitcoin infrastructure, protocol laboratories, municipal operational platforms, and decentralized tools.",
+    "Portfolio of Bitcoin infrastructure, protocol laboratories, municipal operational platforms, and decentralized tools.",
 };
 
 export default function ProjectsPage() {
@@ -35,7 +35,7 @@ export default function ProjectsPage() {
         {/* Flagship Section */}
         <div className="pt-8 space-y-6">
           <h2 className="text-xs font-mono uppercase tracking-wider text-zinc-400 dark:text-zinc-500 font-semibold">
-            Flagship Engineering Projects
+            Flagship Systems & Projects
           </h2>
           <div className="grid grid-cols-1 gap-8">
             {flagship.map((project) => (

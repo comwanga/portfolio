@@ -21,7 +21,7 @@ import {
 export const metadata: Metadata = {
   title: "About | Collins Mwanga",
   description:
-    "Engineering background, core philosophies, and current focus areas of Collins Mwanga (comwanga).",
+    "Developer background, core philosophies, and current focus areas of Collins Mwanga (comwanga).",
 };
 
 export default function AboutPage() {
@@ -43,13 +43,13 @@ export default function AboutPage() {
         </div>
       </Container>
 
-      {/* Engineering Profile & Background */}
+      {/* Developer Profile & Background */}
       <Container size="lg">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main narrative */}
           <div className="lg:col-span-2 space-y-6 text-sm sm:text-base text-zinc-700 dark:text-zinc-300 leading-relaxed">
             <h2 className="text-xl font-bold text-zinc-900 dark:text-zinc-100">
-              Engineering Narrative
+              Developer Narrative
             </h2>
             <p>
               I build software designed to help operators, developers, and communities understand and run complex systems with clarity and confidence. My work spans the spectrum from bare-metal Bitcoin node RPC verification to full-stack multi-tenant operational platforms deployed for municipal governance.
@@ -60,7 +60,7 @@ export default function AboutPage() {
 
             <div className="pt-4 space-y-3">
               <h3 className="text-base font-semibold text-zinc-900 dark:text-zinc-100">
-                Core Engineering Tenets
+                Core Development Tenets
               </h3>
               <ul className="space-y-2 text-xs sm:text-sm text-zinc-600 dark:text-zinc-400">
                 <li className="flex items-start gap-2">
@@ -130,7 +130,7 @@ export default function AboutPage() {
               <span>Active Trajectory</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
-              Current Focus & Active Engineering
+              Current Focus & Active Development
             </h2>
           </div>
 
