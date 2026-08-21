@@ -20,7 +20,7 @@ export const educationalInitiatives: EducationalInitiative[] = [
     role: "Lead Translator & Initiative Coordinator",
     organization: "Bitsacco / Open Source",
     description:
-      "A community-driven technical translation initiative aimed at translating Andreas M. Antonopoulos & David A. Harding's definitive technical book 'Mastering Bitcoin (3rd Edition)' into Kiswahili for East African engineers and students.",
+      "A community-driven technical translation initiative aimed at translating Andreas M. Antonopoulos & David A. Harding's definitive technical book 'Mastering Bitcoin (3rd Edition)' into Kiswahili for East African developers and students.",
     impact:
       "Bridges the technical knowledge gap for 200+ million Swahili speakers across Kenya, Tanzania, Uganda, Rwanda, and DRC, moving beyond surface-level introductory guides to rigorous protocol mechanics.",
     status: "Active Proposal",

@@ -38,7 +38,7 @@ export default function AboutPage() {
             About Collins Mwanga
           </h1>
           <p className="text-base sm:text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed font-normal">
-            Bitcoin & Open-Source Engineer based in Nairobi, Kenya. Working at the intersection of protocol engineering, deterministic operational systems, public-sector digital infrastructure, and East African technical accessibility.
+            Bitcoin & Open-Source Developer based in Nairobi, Kenya. Working at the intersection of protocol engineering, deterministic operational systems, public-sector digital infrastructure, and East African technical accessibility.
           </p>
         </div>
       </Container>

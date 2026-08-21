@@ -35,7 +35,7 @@ export default function OpenSourcePage() {
         <div className="space-y-4 max-w-3xl border-b border-zinc-200 dark:border-zinc-800/80 pb-8">
           <div className="flex items-center gap-2 text-xs font-mono font-semibold uppercase tracking-wider text-amber-600 dark:text-amber-400">
             <Github className="w-4 h-4" />
-            <span>Open Source Engineering</span>
+            <span>Open Source Development</span>
           </div>
           <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-zinc-900 dark:text-zinc-50">
             Open-Source Contributions

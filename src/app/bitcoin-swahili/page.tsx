@@ -76,7 +76,7 @@ export default function BitcoinSwahiliPage() {
               Our translation work is not superficial marketing or basic summaries. It focuses on translating canonical technical textbooks (such as Andreas Antonopoulos & David Harding&apos;s <em>Mastering Bitcoin</em>) and production payment infrastructure (BTCPay Server).
             </p>
             <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
-              This includes establishing consistent, precise Swahili technical lexicons for complex cryptography, timelocks, and Lightning channels so local engineers can reason about protocols natively.
+              This includes establishing consistent, precise Swahili technical lexicons for complex cryptography, timelocks, and Lightning channels so local developers can reason about protocols natively.
             </p>
           </div>
         </div>

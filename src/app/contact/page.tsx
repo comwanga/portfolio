@@ -53,7 +53,7 @@ export default function ContactPage() {
                 Email
               </h3>
               <p className="text-xs text-zinc-600 dark:text-zinc-400">
-                Direct inbox for technical inquiries and engineering proposals.
+                Direct inbox for technical inquiries and development collaboration.
               </p>
             </div>
             <div className="pt-4 border-t border-zinc-100 dark:border-zinc-800">

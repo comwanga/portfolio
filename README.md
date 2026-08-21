@@ -1,6 +1,6 @@
 # Collins Mwanga (comwanga) - Personal Portfolio
 
-Production-quality personal portfolio website presenting **Collins Mwanga (`comwanga`)** as a **Bitcoin/Open-Source/Systems-focused builder** with practical experience across Bitcoin/Lightning infrastructure, protocol engineering, municipal operations platforms, open-source contributions (BTCPay Server), and technical Swahili Bitcoin education.
+Production-quality personal portfolio website presenting **Collins Mwanga (`comwanga`)** as a **Bitcoin and Open-Source Developer** with practical experience across Bitcoin/Lightning infrastructure, protocol engineering, municipal operations platforms, open-source contributions (BTCPay Server), and technical Swahili Bitcoin education.
 
 Built entirely in **TypeScript** using **Next.js App Router**, **Tailwind CSS**, and **Vitest**.
 

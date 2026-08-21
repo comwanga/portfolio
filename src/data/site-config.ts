@@ -26,14 +26,14 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   name: "Collins Mwanga",
-  role: "Bitcoin & Open-Source Engineer",
+  role: "Bitcoin & Open-Source Developer",
   handle: "comwanga",
   email: "mwanga02717@gmail.com",
   location: "Nairobi, Kenya",
   company: "Bitsacco",
   companyRole: "Bitcoin Educator & Community Developer",
   bioQuote: "Experiment. Fail. Learn. Repeat. Rust it. Type it.",
-  headline: "Bitcoin & Open-Source Engineer building operational systems, protocol tools and accessible Bitcoin infrastructure.",
+  headline: "Bitcoin & Open-Source Developer building operational systems, protocol tools and accessible Bitcoin infrastructure.",
   subheadline: "Focused on deterministic Bitcoin/Lightning operational intelligence, reproducible protocol laboratories, production open-source contributions, and localized Bitcoin technical education.",
   links: {
     github: "https://github.com/comwanga",
