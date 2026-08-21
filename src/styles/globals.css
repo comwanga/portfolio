@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #fafafa;
+    --foreground: #09090b;
+    --card: #ffffff;
+    --card-foreground: #09090b;
+    --border: #e4e4e7;
+    --muted: #71717a;
+    --muted-background: #f4f4f5;
+    --accent: #f7931a;
+    --accent-foreground: #ffffff;
+    --ring: #f7931a;
+  }
+
+  .dark {
+    --background: #09090b;
+    --foreground: #f4f4f5;
+    --card: #121215;
+    --card-foreground: #f4f4f5;
+    --border: #27272a;
+    --muted: #a1a1aa;
+    --muted-background: #18181b;
+    --accent: #f7931a;
+    --accent-foreground: #ffffff;
+    --ring: #f7931a;
+  }
+
+  * {
+    @apply border-zinc-200 dark:border-zinc-800;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-bitcoin-400/20 selection:text-bitcoin-600 dark:selection:text-bitcoin-300 min-h-screen flex flex-col font-sans;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  /* Accessibility: visible focus ring */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible {
+    @apply outline-none ring-2 ring-bitcoin-400 ring-offset-2 ring-offset-background;
+  }
+}
+
+@layer utilities {
+  /* Subtle technical grid background */
+  .bg-grid-pattern {
+    background-size: 32px 32px;
+    background-image: 
+      linear-gradient(to right, rgba(120, 120, 120, 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(120, 120, 120, 0.05) 1px, transparent 1px);
+  }
+
+  .dark .bg-grid-pattern {
+    background-image: 
+      linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
